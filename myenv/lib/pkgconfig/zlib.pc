@@ -1,0 +1,13 @@
+prefix=/Users/dharnidharreddybanala/Desktop/LangChain/myenv
+exec_prefix=/Users/dharnidharreddybanala/Desktop/LangChain/myenv
+libdir=/Users/dharnidharreddybanala/Desktop/LangChain/myenv/lib
+sharedlibdir=/Users/dharnidharreddybanala/Desktop/LangChain/myenv/lib
+includedir=/Users/dharnidharreddybanala/Desktop/LangChain/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
